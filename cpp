@@ -15,7 +15,7 @@ PROCESS_INFORMATION pi;
     NULL,
     NULL,
     FALSE,
-    O,
+    0,
     NULL,
     NULL,
     &si,
@@ -25,6 +25,7 @@ PROCESS_INFORMATION pi;
     return -1;
   }
   WaitForSingleObject(pi.hProcess, INFINITE);
+  printf("Muhib Cendekia 14201036\n");
   printf("Child Complete");
 
   CloseHandle(pi.hProcess);
