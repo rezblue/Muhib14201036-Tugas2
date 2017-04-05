@@ -11,7 +11,7 @@ PROCESS_INFORMATION pi;
   ZeroMemory(&pi,sizeof(pi));
   
   if (!CreateProcess(NULL,
-    "C:\\WINDOWS\\system32\\mspaint.exe",
+    "C:\\WINDOWS\\system32\\calc.exe",
     NULL,
     NULL,
     FALSE,
